@@ -1,0 +1,104 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pics {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+#navbar {
+    background-color: black;
+    /* border: 2px solid white; */
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 5px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 20px;
+    height: 20px;
+}
+
+.Jane {
+    background-image: url('./Project pics/jane.jpg');
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    padding-top: 30vh;
+    padding-left: 3vw;
+    margin: 0 auto;
+}
+
+.btn {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: gray;
+    font-size: 30px;
+    padding-top: -20vh;
+}
+
+.btn:hover {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+}
+
+#Janelife {
+    background-color: white;
+    height: 20vh;
+    text-align: center;
+}
+
+#Janelife h1,
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+#girlhat {
+    background-color: white;
+    height: 20vh;
+    /* border: 2px solid aliceblue; */
+}
+
+#girlhat h1,
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* #grid {
+    display: grid;
+    grid-template-rows: 50vh 50vh;
+} */
